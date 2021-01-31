@@ -1,2 +1,34 @@
-# Crie-seu-gerenciador-de-salas-de-reuni-es-com-Java-e-Angular
-Crie seu gerenciador de salas de reuniões com Java e Angular
+# Gerenciador de salas de reunioes
+
+## Stack utilizada:
+
+
+ * Spring Web
+ * Spring Data JPA
+ * H2 Database
+ * Java 8
+ * Maven
+ 
+## Endpoints criados na API
+
+* Criar sala de reuniao
+POST - /api/v1/rooms
+
+* Listar todas as salas
+GET - /api/v1/rooms
+
+* Buscar uma sala pelo Id
+GET - /api/v1/rooms/{id}
+
+* Atualizar uma sala pelo Id
+PUT - /api/v1/rooms/{id}
+
+* Excluir uma sala pelo id
+DELETE - /api/v1/rooms/{Id}
+
+
+* Alex Rogério 2021
+
+
+
+ 
